@@ -6,6 +6,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.appdepreguntas.rutas.HomeScreen
 import com.example.appdepreguntas.rutas.ModeScreen
+import com.example.appdepreguntas.rutas.PreguntaScreen
 import com.example.appdepreguntas.rutas.Rutas
 
 @Composable
@@ -21,7 +22,7 @@ fun Navigator(){
             ModeScreen(navController = navController)
         }
         composable(Rutas.PreguntaScreen.ruta){
-            //TODO
+            PreguntaScreen(navController = navController, opciones = arrayOf("A","B","C","D"))
         }
 
 
