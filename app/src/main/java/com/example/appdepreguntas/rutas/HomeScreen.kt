@@ -34,15 +34,7 @@ import com.example.appdepreguntas.R
 fun HomeScreen(navController: NavController?){
 
     Box(modifier = Modifier.fillMaxSize()){
-        Image(painter = painterResource(id = R.drawable.mainscreen),
-            contentDescription = "", modifier = Modifier
-                .fillMaxSize()
-                .blur(
-                    radiusX = 10.dp,
-                    radiusY = 10.dp,
-                    edgeTreatment = BlurredEdgeTreatment(RoundedCornerShape(8.dp))
-                ),
-            contentScale = ContentScale.Crop)
+        BackgroundImage()
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier
@@ -53,9 +45,7 @@ fun HomeScreen(navController: NavController?){
             Image(painter = painterResource(id = R.drawable._logolol), contentDescription = "", contentScale = ContentScale.Inside, modifier = Modifier.padding(1.dp))
             Text(text = "Vas a hacer un test de 10 preguntas para saber qué tan friki eres del lol",
                 fontSize = 20.sp)
-            Button(onClick = { navController?.navigate(Rutas.PreguntaScreen.ruta) }) {
-                Text(text = "¡Vamos allá!", fontSize = 20.sp, color = Color.Yellow)
-            }
+            modoButton(text = "¡Vamos allá!", navController = navController, ruta = Rutas.ModoScreen.ruta)
         }
     }
 
