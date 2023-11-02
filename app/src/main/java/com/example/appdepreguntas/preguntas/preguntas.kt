@@ -10,7 +10,7 @@ import com.google.gson.Gson
 import org.json.JSONArray
 import java.io.InputStreamReader
 
-data class Pregunta(val title: String, val image: Int,val options: List<String>)
+data class Pregunta(val title: String, val image: Int,val options: List<String>, val correctOption : Int)
 
 
 @Composable
@@ -25,7 +25,7 @@ fun loadJSON(context: Context): Pregunta {
     val gson = Gson()
     val preguntas = gson.fromJson(JSON,Array<Pregunta>::class.java);
     inputStreamReader.close()
-    return preguntas.get(0)
+    return preguntas.get(1)
 }
 
 

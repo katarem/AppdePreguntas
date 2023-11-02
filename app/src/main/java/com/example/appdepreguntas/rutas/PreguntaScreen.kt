@@ -29,8 +29,6 @@ import com.example.appdepreguntas.preguntas.loadPreguntas
 @Composable
 fun PreguntaScreen(navController: NavController?){
     val pregunta = loadPreguntas()
-    val opciones = pregunta.options
-    val imagen = pregunta.image
     Box(modifier = Modifier.fillMaxSize()){
         BackgroundImage()
         Column (Modifier.fillMaxSize(),
@@ -38,12 +36,14 @@ fun PreguntaScreen(navController: NavController?){
             verticalArrangement = Arrangement.Center
         ){
             Text(text = "Pregunta 10 de 10", fontSize = 45.sp, fontWeight = FontWeight.Bold)
-            Image(painter = painterResource(id = R.drawable.evenshroud), contentDescription = "", Modifier.padding(10.dp))
+            Image(painter = painterResource(id = pregunta.image), contentDescription = "", Modifier.padding(10.dp))
             Text(text = pregunta.title, fontSize = 30.sp)
-            optionBox(opciones = opciones)
+            optionBox(opciones = pregunta.options)
             actionBox()
             loadPreguntas()
         }
+
+
     }
 
 }
@@ -52,10 +52,7 @@ fun PreguntaScreen(navController: NavController?){
 @Composable
 fun optionBox(opciones : List<String>){
     Column (){
-            preguntaButton(text = opciones.get(0))
-            preguntaButton(text = opciones.get(1))
-            preguntaButton(text = opciones.get(2))
-            preguntaButton(text = opciones.get(3))
+            for (i in opciones) preguntaButton(text = i)
         }
 }
 

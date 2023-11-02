@@ -1,42 +1,134 @@
 [
     {
         "title":"¿Cómo se llama este item?",
-        "image": 1,
+        "image": 2130968579,
         "options": [
             "Creagrietas",
             "Mortaja de la quietud",
             "Filoscuro de Draktarr",
             "Hombrera letal"
-        ]
+        ],
+        "correctOption": 1
     },
     {
-
-    },
-
-    {
-
-    },
-    {
-
-    },
-
-    {
-
+        "title": "¿Qué linea es esta?",
+        "image": 2130968590,
+        "options": [
+            "Mid",
+            "Jungla",
+            "Lateral",
+            "Derecha"
+        ],
+        "correctOption": 0
     },
     {
-
-    },
-
-    {
-
-    },
-    {
-
-    },
-    {
-
+        "title": "¿En qué linea suelen estar los magos?",
+        "image": 2130968590,
+        "options": [
+            "Adc",
+            "Jungla",
+            "Mid",
+            "Top"
+        ],
+        "correctOption": 2
     },
     {
-
+        "title": "¿Cual de estos campeones no pertenece al vacìo?",
+        "image": 2130968590,
+        "options": [
+            "Vel'koz",
+            "Malzahar",
+            "K'sante",
+            "Rek'sai"
+        ],
+        "correctOption": 2
+    },
+    {
+        "title": "¿Que campeon pelea con un farol?",
+        "image": 2130968590,
+        "options": [
+            "Jax",
+            "Kassadin",
+            "Kled",
+            "Gnar"
+        ],
+        "correctOption": 0
+    },
+    {
+        "title": "¿Cuál fue el primer campeón diseñado por Riot Games?",
+        "image": 2130968590,
+        "options": [
+            "Soraka",
+            "Ashe",
+            "Annie",
+            "Singed"
+        ],
+        "correctOption": 3
+    },
+    {
+        "title": "¿Cuál es el único campeón que no tiene daño en area?",
+        "image": 2130968590,
+        "options": [
+            "Ashe",
+            "Vayne",
+            "Jhin",
+            "Caitlyn"
+        ],
+        "correctOption": 1
+    },
+    {
+        "title": "¿A qué minuto spawnea el Heraldo de la Grieta?",
+        "image": 2130968590,
+        "options": [
+            "10:00",
+            "8:00",
+            "12:00",
+            "6:00"
+        ],
+        "correctOption": 1
+    },
+    {
+        "title": "¿Qué famoso grupo compuso la canción de los Worlds de 2014?",
+        "image": 2130968590,
+        "options": [
+            "Twenty One Pilots",
+            "OneRepublic",
+            "Nickelback",
+            "Imagine Dragons"
+        ],
+        "correctOption": 3
+    },
+    {
+        "title": "¿En qué año salió League of Legends en su versión final?",
+        "image": 2130968590,
+        "options": [
+            "2011",
+            "2013",
+            "2009",
+            "2014"
+        ],
+        "correctOption": 2
+    },
+    {
+        "title": "¿Qué equipo ganó más veces el mundial?",
+        "image": 2130968590,
+        "options": [
+            "Samsung Galaxy",
+            "Invictus Gaming",
+            "SK Telecom T1",
+            "Fnatic"
+        ],
+        "correctOption": 2
+    },
+    {
+        "title": "¿Qué campeón se lanzó con la primera versión del juego?",
+        "image": 2130968590,
+        "options": [
+            "Riven",
+            "Wukong",
+            "Kog'Maw",
+            "Morgana"
+        ],
+        "correctOption": 3
     }
 ]
