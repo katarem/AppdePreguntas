@@ -22,7 +22,7 @@ fun Navigator(){
             ModeScreen(navController = navController)
         }
         composable(Rutas.PreguntaScreen.ruta){
-            PreguntaScreen(navController = navController, opciones = arrayOf("A","B","C","D"))
+            PreguntaScreen(navController = navController)
         }
 
 

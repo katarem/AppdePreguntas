@@ -24,10 +24,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.appdepreguntas.R
+import com.example.appdepreguntas.preguntas.loadPreguntas
 
 @Composable
-fun PreguntaScreen(navController: NavController?, opciones: Array<String>){
-
+fun PreguntaScreen(navController: NavController?){
+    val pregunta = loadPreguntas()
+    val opciones = pregunta.options
+    val imagen = pregunta.image
     Box(modifier = Modifier.fillMaxSize()){
         BackgroundImage()
         Column (Modifier.fillMaxSize(),
@@ -36,16 +39,18 @@ fun PreguntaScreen(navController: NavController?, opciones: Array<String>){
         ){
             Text(text = "Pregunta 10 de 10", fontSize = 45.sp, fontWeight = FontWeight.Bold)
             Image(painter = painterResource(id = R.drawable.evenshroud), contentDescription = "", Modifier.padding(10.dp))
-            Text(text = "¿Cómo se llama este item?", fontSize = 30.sp)
+            Text(text = pregunta.title, fontSize = 30.sp)
             optionBox(opciones = opciones)
             actionBox()
+            loadPreguntas()
         }
     }
+
 }
 
 
 @Composable
-fun optionBox(opciones : Array<String>){
+fun optionBox(opciones : List<String>){
     Column (){
             preguntaButton(text = opciones.get(0))
             preguntaButton(text = opciones.get(1))
@@ -87,7 +92,7 @@ fun actionBox(){
 @Preview(showBackground = true)
 @Composable
 fun preguntaPreview(){
-    PreguntaScreen(navController = null, arrayOf("Creagrietas","Mortaja de la quietud","Filoscuro de Draktarr","Hombrera letal"))
+    PreguntaScreen(navController = null)
 }
 
 
