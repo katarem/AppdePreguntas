@@ -34,7 +34,7 @@ import com.example.appdepreguntas.R
 fun HomeScreen(navController: NavController?){
 
     Box(modifier = Modifier.fillMaxSize()){
-        BackgroundImage()
+        BackgroundImage(R.drawable.mainscreen,true)
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier

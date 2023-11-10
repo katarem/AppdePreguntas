@@ -23,14 +23,14 @@ import com.example.appdepreguntas.R
 fun ModeScreen(navController: NavController?){
 
     Box(modifier = Modifier.fillMaxSize()){
-        BackgroundImage()
+        BackgroundImage(id = R.drawable.mainscreen,true)
         Column(
             modifier = Modifier.fillMaxSize(),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally,
         ){
-            modoButton(text = "Modo normal",navController,Rutas.PreguntaScreen.ruta)
-            modoButton(text = "Modo examen",navController,Rutas.PreguntaScreen.ruta)
+            modoButton(text = "Modo normal",navController,Rutas.PreguntaScreen.ruta + "/false")
+            modoButton(text = "Modo examen",navController,Rutas.PreguntaScreen.ruta + "/true")
             modoButton(text = "Volver",navController,Rutas.HomeScreen.ruta)
         }
     }

@@ -1,69 +1,81 @@
 [
     {
         "title":"¿Cómo se llama este item?",
-        "image": 2130968579,
+        "image": 2130968583,
         "options": [
             "Creagrietas",
             "Mortaja de la quietud",
             "Filoscuro de Draktarr",
             "Hombrera letal"
         ],
-        "correctOption": 1
+        "correctOption": "Mortaja de la quietud",
+        "respondida": false,
+        "correcta": false
     },
     {
         "title": "¿Qué linea es esta?",
-        "image": 2130968590,
+        "image": 2130968599,
         "options": [
             "Mid",
             "Jungla",
             "Lateral",
             "Derecha"
         ],
-        "correctOption": 0
+        "correctOption": "Mid",
+        "respondida": false,
+        "correcta": false
     },
     {
         "title": "¿En qué linea suelen estar los magos?",
-        "image": 2130968590,
+        "image": 2130968596,
         "options": [
             "Adc",
             "Jungla",
             "Mid",
             "Top"
         ],
-        "correctOption": 2
+        "correctOption": "Mid",
+        "respondida": false,
+        "correcta": false
     },
     {
-        "title": "¿Cual de estos campeones no pertenece al vacìo?",
-        "image": 2130968590,
+        "title": "¿Cuál de estos campeones no pertenece al vacío?",
+        "image": 2130968617,
         "options": [
             "Vel'koz",
             "Malzahar",
             "K'sante",
             "Rek'sai"
         ],
-        "correctOption": 2
+        "correctOption": "K'sante",
+        "respondida": false,
+        "correcta": false
     },
     {
-        "title": "¿Que campeon pelea con un farol?",
-        "image": 2130968590,
+        "title": "¿Que campeón pelea con un farol?",
+        "image": 2130968614,
         "options": [
             "Jax",
             "Kassadin",
             "Kled",
             "Gnar"
         ],
-        "correctOption": 0
+        "correctOption": "Jax",
+        "respondida": false,
+        "correcta": false
     },
     {
         "title": "¿Cuál fue el primer campeón diseñado por Riot Games?",
-        "image": 2130968590,
+        "image": 2130968614,
         "options": [
             "Soraka",
             "Ashe",
             "Annie",
             "Singed"
         ],
-        "correctOption": 3
+        "correctOption": "Singed",
+        "respondida": false,
+        "correcta": false
     },
     {
         "title": "¿Cuál es el único campeón que no tiene daño en area?",
@@ -74,7 +86,9 @@
             "Jhin",
             "Caitlyn"
         ],
-        "correctOption": 1
+        "correctOption": "Vayne",
+        "respondida": false,
+        "correcta": false
     },
     {
         "title": "¿A qué minuto spawnea el Heraldo de la Grieta?",
@@ -85,50 +99,366 @@
             "12:00",
             "6:00"
         ],
-        "correctOption": 1
+        "correctOption": "8:00",
+        "respondida": false,
+        "correcta": false
     },
     {
         "title": "¿Qué famoso grupo compuso la canción de los Worlds de 2014?",
-        "image": 2130968590,
+        "image": 2130968606,
         "options": [
             "Twenty One Pilots",
             "OneRepublic",
             "Nickelback",
             "Imagine Dragons"
         ],
-        "correctOption": 3
+        "correctOption": "Imagine Dragons",
+        "respondida": false,
+        "correcta": false
     },
     {
         "title": "¿En qué año salió League of Legends en su versión final?",
-        "image": 2130968590,
+        "image": 2130968605,
         "options": [
             "2011",
             "2013",
             "2009",
             "2014"
         ],
-        "correctOption": 2
+        "correctOption": "2009",
+        "respondida": false,
+        "correcta": false
     },
     {
         "title": "¿Qué equipo ganó más veces el mundial?",
-        "image": 2130968590,
+        "image": 2130968606,
         "options": [
             "Samsung Galaxy",
             "Invictus Gaming",
             "SK Telecom T1",
             "Fnatic"
         ],
-        "correctOption": 2
+        "correctOption": "SK Telecom T1",
+        "respondida": false,
+        "correcta": false
     },
     {
         "title": "¿Qué campeón se lanzó con la primera versión del juego?",
-        "image": 2130968590,
+        "image": 2130968614,
         "options": [
             "Riven",
             "Wukong",
             "Kog'Maw",
             "Morgana"
         ],
-        "correctOption": 3
+        "correctOption": "Morgana",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Qué es un ADC?",
+        "image": 2130968614,
+        "options": [
+            "Ataca de cerca",
+            "Attack Damage Carry",
+            "Attack Dealing Carry"
+        ],
+        "correctOption": "Attack Damage Carry",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿En qué región nació Annie?",
+        "image": 2130968614,
+        "options": [
+            "Piltover",
+            "Ionia",
+            "Demacia",
+            "Targon",
+            "Ixtal",
+            "Noxus"
+        ],
+        "correctOption": "Piltover",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Cuál de estos items da crítico?",
+        "image": 2130968614,
+        "options": [
+            "Bastón del vacío",
+            "Espada del Rey",
+            "Corazón helado",
+            "Segador de Esencia",
+            "Sombrero de Rabadon",
+            "Armadura de Espinas"
+        ],
+        "correctOption": "Segador de Esencia",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Qué item reduce armadura y da CDR?",
+        "image": 2130968614,
+        "options": [
+            "Chupasangre",
+            "Hidra Voraz",
+            "Hidra Titánica",
+            "Baile de la Muerte",
+            "Lanza de Shojin",
+            "Cuchilla Negra"
+        ],
+        "correctOption": "Cuchilla Negra",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿De quién es esta habilidad?",
+        "image": 2130968621,
+        "options": [
+            "Kennen",
+            "Zed",
+            "Shen",
+            "Akali"
+        ],
+        "correctOption": "Zed",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿De quién es esta habilidad?",
+        "image": 2130968585,
+        "options": [
+            "Gragas",
+            "Sejuani",
+            "Gangplank",
+            "Urgot"
+        ],
+        "correctOption": "Gangplank",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿De qué campeón es esta habilidad?",
+        "image": 2130968597,
+        "options": [
+            "Blitzcrank",
+            "Thresh",
+            "Nautilus",
+            "Lux"
+        ],
+        "correctOption": "Lux",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Qué compañía desarrolló League of Legends?",
+        "image": 2130968618,
+        "options": [
+            "Activision",
+            "Capcom",
+            "Riot Games"
+        ],
+        "correctOption": "Riot Games",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Cuántas líneas existen en League of Legends?",
+        "image": 2130968618,
+        "options": [
+            "Una",
+            "Dos",
+            "Tres"
+        ],
+        "correctOption": "Tres",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Qué animales se pueden ver en El Abismo de Los Lamentos?",
+        "image": 2130968618,
+        "options": [
+            "poros",
+            "unicornios",
+            "ardillas",
+            "gatos"
+        ],
+        "correctOption": "poros",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "League of Legends sólo se puede jugar en Windows",
+        "image": 2130968618,
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "correctOption": "Falso",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "La Fuerza de la Trinidad es el item más caro del juego",
+        "image": 2130968618,
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "correctOption": "Verdadero",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Dónde respawnea un jugador al morir en la Grieta del Invocador?",
+        "image": 2130968618,
+        "options": [
+            "La Fuente",
+            "EL Nexo",
+            "La Jungla"
+        ],
+        "correctOption": "La Fuente",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "Cassiopeia es mitad humana mitad...",
+        "image": 2130968618,
+        "options": [
+            "León",
+            "Caballo",
+            "Serpiente"
+        ],
+        "correctOption": "Serpiente",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Qué campeón ayuda a Caitlyn a combatir el mal?",
+        "image": 2130968618,
+        "options": [
+            "Vi",
+            "Jinx",
+            "Gragas",
+            "EKko"
+        ],
+        "correctOption": "Vi",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Con qué campeón está casado Tryndamere?",
+        "image": 2130968618,
+        "options": [
+            "Fiora",
+            "Ashe",
+            "Lux",
+            "Maestro Yi"
+        ],
+        "correctOption": "Ashe",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Cuántos campeones había en el juego cuando salió?",
+        "image": 2130968618,
+        "options": [
+            "30",
+            "40",
+            "50"
+        ],
+        "correctOption": "40",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Cómo se llama el mundo en el que suceden los hechos del juego?",
+        "image": 2130968618,
+        "options": [
+            "Azeroth",
+            "Tierra Media",
+            "Runaterra"
+        ],
+        "correctOption": "Runaterra",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Qué campeón mató a Senna?",
+        "image": 2130968618,
+        "options": [
+            "Thresh",
+            "Hecarim",
+            "Mordekaiser",
+            "Yorick"
+        ],
+        "correctOption": "Thresh",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Cómo se llama el humano que creó a Galio?",
+        "image": 2130968618,
+        "options": [
+            "Dr. Mundo",
+            "Singed",
+            "Durand",
+            "Viktor"
+        ],
+        "correctOption": "Durand",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿A qué nivel se desbloquea la ultimate de un campeón?",
+        "image": 2130968618,
+        "options": [
+            "Nivel 5",
+            "Nivel 4",
+            "Nivel 8",
+            "Nivel 6"
+        ],
+        "correctOption": "Riot Games",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Qué estructura se debe destruir para terminar una partida en League of Legends?",
+        "image": 2130968618,
+        "options": [
+            "Torre",
+            "Nexo",
+            "Inhibidor",
+            "Dragón"
+        ],
+        "correctOption": "Riot Games",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Qué criaturas ayudan a los campeones a romper las torres del mapa?",
+        "image": 2130968618,
+        "options": [
+            "Minions",
+            "Yordles",
+            "Robots",
+            "Machangos"
+        ],
+        "correctOption": "Minions",
+        "respondida": false,
+        "correcta": false
+    },
+    {
+        "title": "¿Qué era Zyra antes de transferirse a una forma humana?",
+        "image": 2130968618,
+        "options": [
+            "Una serpiente",
+            "Un búho",
+            "Una planta antigua"
+        ],
+        "correctOption": "Una planta antigua",
+        "respondida": false,
+        "correcta": false
     }
 ]

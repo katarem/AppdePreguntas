@@ -13,14 +13,15 @@ import androidx.compose.ui.unit.dp
 import com.example.appdepreguntas.R
 
 @Composable
-fun BackgroundImage(){
-    Image(painter = painterResource(id = R.drawable.mainscreen),
-        contentDescription = "", modifier = Modifier
-            .fillMaxSize()
-            .blur(
-                radiusX = 10.dp,
-                radiusY = 10.dp,
-                edgeTreatment = BlurredEdgeTreatment(RoundedCornerShape(8.dp))
-            ),
+fun BackgroundImage(id: Int, blur: Boolean){
+
+    val modifier = if(!blur) Modifier.fillMaxSize() else Modifier.fillMaxSize().blur(
+        radiusX = 10.dp,
+        radiusY = 10.dp,
+        edgeTreatment = BlurredEdgeTreatment(RoundedCornerShape(8.dp))
+    )
+
+    Image(painter = painterResource(id = id),
+        contentDescription = "", modifier = modifier,
         contentScale = ContentScale.Crop)
 }
